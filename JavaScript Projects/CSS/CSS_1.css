@@ -1,0 +1,21 @@
+.formlayout {
+    display: -webkit-flex;
+    display: flex;
+    width: 250px;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(17, 107, 39, 0.3);
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5)
+}
+
+.INPUT {
+    display: block;
+    float:left;
+}
+
+.Sub {
+    display: block;
+    float: right;
+}

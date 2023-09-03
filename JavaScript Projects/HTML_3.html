@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>JavaScript</title>
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="">
+	</head>
+	<body>
+        <h1>Anime Protagonists</h1>
+        <h3>Click on a character to learn more</h3>
+
+        <ul>
+            <li onclick="displayType(this)" id="OnePiece" data-protagonist="Luffy">One Piece</li>
+            <!-- Calls the displayType() function || creates the data attribute data-protagonists -->
+            <!-- When clicked, the function brings up an alert that shows the data attribute associated with that line -->
+            <li onclick="displayType(this)" id="FullMetalAlchemist" data-protagonist="Edward">Full Metal Alchemist</li>
+            <li onclick="displayType(this)" id="HunterxHunter" data-protagonist="Gon">Hunter x Hunter</li>
+            <li onclick="displayType(this)" id="DemonSlayer" data-protagonist="Tanjiro">Demon Slayer</li>
+        </ul>
+
+        <script src="JavaScript/JavaScript_3.js"></script>
+    </body>
+</html>

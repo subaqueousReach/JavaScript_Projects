@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Arrow Function Challenge
+        </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <p id="Bonk"></p>
+        <p>Above is the result of an add function using the => method</p>
+
+        <br>
+        <br>
+
+        <p id="Donk"></p>
+        <button onclick="addFunction()">Click To Add</button>
+        <p>Above is the result of an add function using standard syntax</p>
+
+        <script>
+            // => shortens function syntax
+            // Both of these produce the same results
+            let add = (x, y) => x + y;
+            document.getElementById("Bonk").innerHTML = add(12,6);
+
+            function addFunction(x, y) {
+                x = 12;
+                y = 6;
+                result = x + y;
+                document.getElementById("Donk").innerHTML = result;
+            }
+        </script>
+    </body>
+</html>
