@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <p id="1">Click This</p>
+        <br>
+        <br>
+        <p id="2">Sneaky Beaky</p>
+    </body>
+    <script>
+        $("#1").on("click", function() {
+            console.log("click");
+        }); // When the element is clicked
+            // it logs 'click' in the console
+
+        $("#2").hide("slow"); // Slowly hides the element with a fade effect
+
+    </script>
+</html>
