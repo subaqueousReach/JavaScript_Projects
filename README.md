@@ -5,7 +5,7 @@ This repository will contain all works completed as part of my JavaScript Progra
 Through these projects and challenges, I've learned to utilize different functions of JavaScript in combination with HTML and CSS code to produce dynamic functions for websites.
 
 ## 2. JavaScript Projects
-<br>• <a href="pizza-menu">Pizza Menu</a>
+<br>• <a href="#pizza-menu">Pizza Menu</a>
 <br>• <a href="#tic-tac-toe">Tic Tac Toe</a>
 <br>• <a href="#calculator">Calculator</a>
 
